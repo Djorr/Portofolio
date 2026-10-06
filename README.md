@@ -1,17 +1,17 @@
 # Portfolio — Djorr
 
-Een overzicht van mijn afgeronde projecten: Minecraft-servers en plugins, websites en SaaS-platformen, Discord-bots en een paar losse tools. Per project staat wat het is, hoe het werkt en hoe het eruitziet. De broncode zelf staat niet in deze repository.
+An overview of my finished projects: Minecraft servers and plugins, websites and SaaS platforms, Discord bots and a few standalone tools. Each project describes what it is, how it works and what it looks like. The source code itself is not part of this repository.
 
-**Inhoud**
+**Contents**
 
 - [Minecraft](#minecraft)
-  - [CrashVille](#crashville) · [MatrixPearls](#matrixpearls) · [YT-Builds](#yt-builds--cinematic-build-pipeline) · [Linguify](#linguify) · [MT-Grinding](#mt-grinding) · [Billify](#billify) · [Dynamic Shop System](#dynamic-shop-system) · [Kleinere plugins](#kleinere-plugins)
+  - [CrashVille](#crashville) · [MatrixPearls](#matrixpearls) · [YT-Builds](#yt-builds--cinematic-build-pipeline) · [Linguify](#linguify) · [MT-Grinding](#mt-grinding) · [Billify](#billify) · [Dynamic Shop System](#dynamic-shop-system) · [Smaller plugins](#smaller-plugins)
 - [Websites & SaaS](#websites--saas)
-  - [Drivin2Solutions](#drivin2solutions) · [Ruyazo](#ruyazo) · [ConversionLab](#conversionlab) · [Bloom Cloud](#bloom-cloud) · [TabPilot](#tabpilot) · [AceBot Live Casino](#acebot-live-casino) · [Nami Sushi](#nami-sushi)
-- [Discord-bots](#discord-bots)
-  - [DMuri](#dmuri) · [Bloom Cloud bot](#bloom-cloud-bot) · [d2s-bot](#d2s-bot) · [NexusBot](#nexusbot)
-- [Overig](#overig)
-  - [DroneWatch](#dronewatch) · [XAUUSD MetaTrader 5-bot](#xauusd-metatrader-5-bot)
+  - [Ruyazo](#ruyazo) · [ConversionLab](#conversionlab) · [Bloom Cloud](#bloom-cloud) · [TabPilot](#tabpilot) · [AceBot Live Casino](#acebot-live-casino)
+- [Discord bots](#discord-bots)
+  - [DMuri](#dmuri) · [Bloom Cloud bot](#bloom-cloud-bot) · [NexusBot](#nexusbot)
+- [Other](#other)
+  - [DroneWatch](#dronewatch) · [XAUUSD MetaTrader 5 bot](#xauusd-metatrader-5-bot)
 
 ---
 
@@ -19,296 +19,248 @@ Een overzicht van mijn afgeronde projecten: Minecraft-servers en plugins, websit
 
 ### CrashVille
 
-Een volledige Nederlandse roleplay-server, gebouwd als één grote Paper-plugin met eigen resourcepack, 3D-modellen en een kaart van Amsterdam en de Bijlmer.
+A complete Dutch roleplay server, built as one large Paper plugin with its own resource pack, 3D models and a map of Amsterdam and the Bijlmer.
 
-**Wat er in zit**
+**What's inside**
 
-- **Economie en bank** — pinautomaten, pinconsoles en pinpassen met een eigen bankinterface (pas insteken, pincode, saldo, opnemen, storten, afschrift).
-- **Banen** — minen, vissen, postbode, farmen, houthakken en vuilnisman, elk met eigen machines (zaagmolen, droogoven, breker, sorteerband, visafslag).
-- **Telefoon** — eigen nummer, abonnementen per provider, zendmasten, apps, een App Store, Geldmaat en 112.
-- **Hulpdiensten en overheid** — politie (handboeien, fouilleren, boetes, cellen, PolitieNet), ambulance, brandweer, BOA en een gemeente met BSN, ID-kaart, paspoort en vergunningen.
-- **Computers in de wereld** — losse pc-kast, monitor, toetsenbord, muis en printer, met een besturingssysteem waarop je inlogt als medewerker, wethouder of burgemeester.
-- **Bedrijven en winkels** — KvK, groothandel, personeel, schappen met verpakte producten, kassa's en beveiligingspoortjes met alarm.
-- **Bewakingscamera's** — live meekijken, terugkijken, wissen en beelden op een USB-stick zetten.
-- **Casino** — blackjack, gokkasten en een Crazy Time-wiel met complete 3D-studio.
-- **Plots en voertuigen** — kopen of huren per dag of week, en voertuigen met kilometerstand, vuil, slijtage en een kofferbak met gewicht.
+- **Economy and banking** — ATMs, card terminals and bank cards with a custom banking interface (insert card, PIN, balance, withdraw, deposit, statement).
+- **Jobs** — mining, fishing, mail delivery, farming, lumberjacking and garbage collection, each with its own machines (sawmill, drying kiln, crusher, sorting belt, fish auction).
+- **Phone** — personal number, carrier subscriptions, cell towers, apps, an App Store, an ATM app and emergency calls.
+- **Emergency services and government** — police (handcuffs, frisking, fines, cells, police database), ambulance, fire department, enforcement officers and a municipality with citizen numbers, ID cards, passports and permits.
+- **In-world computers** — separate tower, monitor, keyboard, mouse and printer, running an operating system where you log in as an employee, alderman or mayor.
+- **Businesses and shops** — chamber of commerce, wholesale, staff, shelves with packaged products, checkouts and security gates with alarms.
+- **Security cameras** — live view, playback, deleting footage and saving it to a USB stick.
+- **Casino** — blackjack, slot machines and a Crazy Time wheel with a full 3D studio.
+- **Plots and vehicles** — buy or rent per day or week, and vehicles with mileage, dirt, wear and a trunk with weight limits.
 
-**Gebouwen en wereld**
+**Buildings and world**
 
-![Gebouwen](images/crashville/gebouwen_overzicht.jpg)
+![Buildings](images/crashville/gebouwen_overzicht.jpg)
 
 | Amsterdam | Bijlmer |
 | --- | --- |
 | ![Amsterdam](images/crashville/amsterdam_top.jpg) | ![Bijlmer](images/crashville/bijlmer_top.jpg) |
 
-**Casino, hulpdiensten en voertuigen**
+**Casino, emergency services and vehicles**
 
 ![Casino](images/crashville/casino_overzicht.jpg)
-![Hulpdiensten](images/crashville/hulpdiensten_overzicht.jpg)
-![Burgerauto's](images/crashville/burgerauto_overzicht.jpg)
+![Emergency services](images/crashville/hulpdiensten_overzicht.jpg)
+![Civilian cars](images/crashville/burgerauto_overzicht.jpg)
 
 **Interfaces**
 
-| Telefoon | Politiecomputer |
+| Phone | Police computer |
 | --- | --- |
-| ![Telefoon](images/crashville/gui_telefoon.png) | ![Politiecomputer](images/crashville/computer_bureaublad_politie_gui3.jpg) |
+| ![Phone](images/crashville/gui_telefoon.png) | ![Police computer](images/crashville/computer_bureaublad_politie_gui3.jpg) |
 
 | Bank | Items |
 | --- | --- |
 | ![Bank](images/crashville/3_startscherm.png) | ![Items](images/crashville/items.png) |
 
-![GUI-overzicht](images/crashville/gui_overzicht.png)
+![GUI overview](images/crashville/gui_overzicht.png)
 ![Inventories](images/crashville/inventories_overzicht.png)
 
-**Gebouwd met:** Java (Paper), Gradle, eigen resourcepack met custom modellen en GUI-textures.
+**Built with:** Java (Paper), Gradle, custom resource pack with custom models and GUI textures.
 
 ---
 
 ### MatrixPearls
 
-Een betrouwbaarheidssysteem voor Ender Pearls (Minecraft 1.7 – 1.20.4) met een eigen webpaneel. Pearls gaan op veel servers mis bij hoeken, trapdeuren en glas, en niemand kan achteraf zien waarom. MatrixPearls lost dat op en legt elke worp vast.
+An Ender Pearl reliability system (Minecraft 1.7 – 1.20.4) with its own web panel. On many servers pearls break at corners, trapdoors and glass, and nobody can tell afterwards why. MatrixPearls fixes that and records every throw.
 
-- **Plugin** — een gedeelde core plus losse compatibiliteitsmodules per Minecraft-versie, zodat het gedrag overal gelijk is.
-- **Webpaneel** — elke worp wordt opgeslagen als een **afspeelbare 3D-scène**: de baan, het blok waar de pearl landde en wat de plugin besloot (toegestaan, gecorrigeerd of geblokkeerd) en waarom.
-- **Licenties en accounts** — servereigenaren koppelen hun server, beheren licenties en dienen bugreports in.
+- **Plugin** — a shared core plus separate compatibility modules per Minecraft version, so behaviour is identical everywhere.
+- **Web panel** — every throw is stored as a **replayable 3D scene**: the trajectory, the block where the pearl landed and what the plugin decided (allowed, corrected or blocked) and why.
+- **Licences and accounts** — server owners link their server, manage licences and submit bug reports.
 
-| Inslag met label | Live spelers |
+| Labelled impact | Live players |
 | --- | --- |
-| ![Inslag](images/matrixpearls/fin-impact.png) | ![Live](images/matrixpearls/live-names.png) |
+| ![Impact](images/matrixpearls/fin-impact.png) | ![Live](images/matrixpearls/live-names.png) |
 
-| Wereld opbouwen | Resultaat |
+| Building the world | Result |
 | --- | --- |
 | ![Build](images/matrixpearls/build-900.png) | ![Ring](images/matrixpearls/ring-done.png) |
 
-**Gebouwd met:** Java (multi-version modules), Nuxt, Three.js, Docker.
+**Built with:** Java (multi-version modules), Nuxt, Three.js, Docker.
 
 ---
 
 ### YT-Builds — cinematic build pipeline
 
-Een volledig automatische pipeline die een Minecraft-bouwwerk ontwerpt, laat bouwen en er een cinematic timelapse van maakt — zonder handwerk.
+A fully automated pipeline that designs a Minecraft build, has it built and turns it into a cinematic timelapse — no manual work involved.
 
-1. Er wordt een bouwplan gegenereerd (huidige opdracht: *The Forgotten Light*, een verlaten vuurtoren op een rotseiland).
-2. Een NPC met mijn skin bouwt het blok voor blok op een Paper-server.
-3. Een automatisch gestarte Minecraft-client dient als camera, zoekt zelf open oceaan en neemt op.
-4. De opnames worden gemonteerd tot een timelapse.
+1. A build plan is generated (current project: *The Forgotten Light*, an abandoned lighthouse on a rocky island).
+2. An NPC wearing my skin builds it block by block on a Paper server.
+3. An automatically launched Minecraft client acts as the camera, finds open ocean by itself and records.
+4. The footage is edited into a timelapse.
 
-![Overzicht](images/yt-builds/overzicht.jpg)
+![Overview](images/yt-builds/overzicht.jpg)
 
-| Tijdens het bouwen | Eindresultaat |
+| During the build | Final result |
 | --- | --- |
-| ![Bouwen](images/yt-builds/snap09.jpg) | ![Finale](images/yt-builds/f_07_finale.jpg) |
+| ![Building](images/yt-builds/snap09.jpg) | ![Finale](images/yt-builds/f_07_finale.jpg) |
 
-**Gebouwd met:** Java (Paper-plugin), een geautomatiseerde client, Python/ffmpeg voor de montage.
+**Built with:** Java (Paper plugin), an automated client, Python/ffmpeg for editing.
 
 ---
 
 ### Linguify
 
-Vertaalt de chat van een server voor elke speler afzonderlijk, werkt direct met gratis vertaaldiensten en heeft geen API-key nodig.
+Translates a server's chat for every player individually. Works out of the box with free translation services, no API key required.
 
-- **Spelerchat** — een Spaanse speler ziet Nederlandse chat in het Spaans; wie het stuurde houdt het origineel, en met hover zie je wat er echt gezegd is.
-- **Join- en quitberichten** in ieders eigen taal.
-- **Server- en pluginberichten** (Essentials, WorldEdit, …) worden per speler op packet-niveau herschreven, zonder de serverstatus aan te raken.
+- **Player chat** — a Spanish player sees Dutch chat in Spanish; the sender keeps the original, and hovering reveals what was actually said.
+- **Join and quit messages** in everyone's own language.
+- **Server and plugin messages** (Essentials, WorldEdit, …) are rewritten per player at packet level, without touching server state.
 
-**Gebouwd met:** Java (Spigot/Paper), packet-interceptie.
+**Built with:** Java (Spigot/Paper), packet interception.
 
 ---
 
 ### MT-Grinding
 
-Vier complete grinding-banen voor Minetopia-servers:
+Four complete grinding jobs for Minetopia servers:
 
-| Baan | Wat het doet |
+| Job | What it does |
 | --- | --- |
-| **Vissen** | Minigame met een bewegende markering, groene zone en oplopende zeldzaamheid van de buit |
-| **Minen** | Ores per pickaxe-tier, blokken die terugkomen en een NPC om te kopen en verkopen |
-| **PostNL** | Pakketten ophalen bij de postbode en bezorgen bij de deur die de particles aanwijzen |
-| **Farmen** | Sikkel, tarwe malen tot meel bij de molen en verkopen bij de inkoop |
+| **Fishing** | Minigame with a moving marker, green zone and increasing loot rarity |
+| **Mining** | Ores per pickaxe tier, regenerating blocks and an NPC for buying and selling |
+| **Mail delivery** | Pick up parcels at the post office and deliver them to the door the particles point to |
+| **Farming** | Sickle, grind wheat into flour at the mill and sell it at the trader |
 
-Alle gereedschappen slijten, inclusief Unbreaking, en hoeveel stel je per ore of gewas in.
+All tools wear down, Unbreaking included, and the amount is configurable per ore or crop.
 
 ---
 
 ### Billify
 
-Een factuursysteem in de stijl van FiveM, voor roleplay- en economieservers (1.14 – 1.20). Spelers sturen elkaar facturen, beheren open en betaalde facturen in een GUI en openen het menu via een commando, item of blok. Commando's, permissies en menu's zijn volledig instelbaar.
+A FiveM-style invoice system for roleplay and economy servers (1.14 – 1.20). Players send each other invoices, manage open and paid invoices in a GUI and open the menu via a command, item or block. Commands, permissions and menus are fully configurable.
 
 ---
 
 ### Dynamic Shop System
 
-Een shopsysteem voor 1.21.5 met een realistische economie: adminshops met vaste prijzen, spelershops met eigen voorraad en prijzen, categorieën, en **prijzen die meebewegen met vraag en aanbod**. Alles via een uitgebreide GUI en opgeslagen in een database.
+A shop system for 1.21.5 with a realistic economy: admin shops with fixed prices, player shops with their own stock and prices, categories, and **prices that move with supply and demand**. Everything through an extensive GUI and stored in a database.
 
 ---
 
-### Kleinere plugins
+### Smaller plugins
 
-| Plugin | Wat het doet |
+| Plugin | What it does |
 | --- | --- |
-| **MTW-AntiDupe** | Detecteert en logt dupes via kisten, hoppers, pistons, redstone, explosies, creative en commando's (1.12.2) |
-| **MTW-Dienst** | `/indienst` en `/uitdienst`: inventory wordt bewaard, je krijgt de kit van je dienst en na afloop alles terug |
-| **MTW-Reports** | `/report <bericht>` naar online staff, met cooldown en logging naar een Discord-webhook |
-| **MinetopiaSDB BalTop** | Asynchrone baltop van saldo (Vault) plus spaarrekeningen (MinetopiaSDB), met paginering, 1.12 – 1.21 |
-| **MinetopiaSDB BuildMode** | Veilige buildmode zonder externe dependencies, werkt op 1.12 tot 1.18+ |
-| **VloedjeSMP-Addon** | `/live` voor streamers (tag in tablijst, broadcast, glow) en `/portal` voor Overworld ↔ Nether-coördinaten |
+| **MTW-AntiDupe** | Detects and logs dupes via chests, hoppers, pistons, redstone, explosions, creative and commands (1.12.2) |
+| **MTW-Dienst** | `/indienst` and `/uitdienst`: your inventory is saved, you get your duty kit and everything back afterwards |
+| **MTW-Reports** | `/report <message>` to online staff, with cooldown and logging to a Discord webhook |
+| **MinetopiaSDB BalTop** | Asynchronous balance top of wallet (Vault) plus savings accounts (MinetopiaSDB), paginated, 1.12 – 1.21 |
+| **MinetopiaSDB BuildMode** | Safe build mode without external dependencies, works on 1.12 through 1.18+ |
+| **VloedjeSMP-Addon** | `/live` for streamers (tab list tag, broadcast, glow) and `/portal` for Overworld ↔ Nether coordinates |
 
 ---
 
 ## Websites & SaaS
 
-### Drivin2Solutions
-
-Een mobile-first platform voor rijscholen. Rijscholen beheren hun leerlingen, instructeurs, agenda, communicatie en betalingen; leerlingen volgen hun lessen, voortgang en theorie en rekenen af. Elke rijschool krijgt een eigen omgeving met eigen logo, kleur en link. Het platform draait als website én als installeerbare app (PWA + Android).
-
-**Rijschool (desktop)**
-
-![Overzicht](images/drivin2solutions/school-overzicht.jpg)
-
-| Agenda | Financiën |
-| --- | --- |
-| ![Agenda](images/drivin2solutions/school-agenda.jpg) | ![Financiën](images/drivin2solutions/school-financien.jpg) |
-
-**Leerling (mobiel)**
-
-| Overzicht | Voortgang |
-| --- | --- |
-| <img src="images/drivin2solutions/leerling-overzicht-mobiel.jpg" width="280"> | <img src="images/drivin2solutions/leerling-voortgang-mobiel.jpg" width="280"> |
-
-**Architectuur**
-
-![Architectuur](images/drivin2solutions/diagram-architectuur.jpg)
-
-Daarnaast heb ik de marketingwebsite gebouwd en een Discord-bot die de livechat koppelt aan support (zie [d2s-bot](#d2s-bot)).
-
-![Website](images/drivin2solutions/og-image.png)
-
-**Gebouwd met:** React, Vite, Capacitor (Android), Docker, Caddy/nginx.
-
----
-
 ### Ruyazo
 
-Een screenshot- en schermopnametool voor Windows, vergelijkbaar met Gyazo. Druk op een toets, sleep een kader en de link staat op je klembord. Inclusief webplatform met accounts waar uploads worden gehost.
+A screenshot and screen recording tool for Windows, similar to Gyazo. Press a key, drag a box and the link is on your clipboard. Includes a web platform with accounts where uploads are hosted.
 
 ![Home](images/ruyazo/1-home.jpg)
 
-| Screenshot-tool | Download |
+| Screenshot tool | Download |
 | --- | --- |
 | ![Tool](images/ruyazo/2-screenshot-tool.jpg) | ![Download](images/ruyazo/3-download.jpg) |
 
-**Gebouwd met:** React, Node.js, een Windows-desktopclient, Docker.
+**Built with:** React, Node.js, a Windows desktop client, Docker.
 
 ---
 
 ### ConversionLab
 
-Een SaaS-landingspagina met eigen conversie-analytics en A/B-tests, plus een volledig test-automatiseringsframework (API- en browsertests) dat bij elke push in CI draait.
+A SaaS landing page with its own conversion analytics and A/B tests, plus a complete test automation framework (API and browser tests) that runs in CI on every push.
 
-![Landingspagina](images/conversionlab/landing-variant-b.jpg)
+![Landing page](images/conversionlab/landing-variant-b.jpg)
 
-| Dashboard | Events debuggen |
+| Dashboard | Event debugging |
 | --- | --- |
 | ![Dashboard](images/conversionlab/dashboard.jpg) | ![Events](images/conversionlab/events-debugging.jpg) |
 
 <img src="images/conversionlab/landing-mobile.jpg" width="280">
 
-**Gebouwd met:** Python, pytest, Playwright, Postman, GitHub Actions.
+**Built with:** Python, pytest, Playwright, Postman, GitHub Actions.
 
 ---
 
 ### Bloom Cloud
 
-Een licentieplatform voor softwareontwikkelaars: licenties uitgeven en valideren, workspaces, plannen met limieten en een auditlog. Herbouwd met een eigen backend en Postgres-database, met een Discord-bot die dezelfde services gebruikt.
+A licensing platform for software developers: issuing and validating licences, workspaces, plans with limits and an audit log. Rebuilt with its own backend and PostgreSQL database, with a Discord bot that uses the same services.
 
 ![Bloom Cloud](images/bloom-cloud/og.jpg)
 
-**Gebouwd met:** Nuxt, Nuxt UI, PostgreSQL, Docker.
+**Built with:** Nuxt, Nuxt UI, PostgreSQL, Docker.
 
 ---
 
 ### TabPilot
 
-Een AI-browserassistent: selecteer een paar open Chrome-tabbladen, beschrijf in een gewone zin wat je wilt, en TabPilot leest die pagina's en geeft één gestructureerd antwoord — een vergelijkingstabel, samenvatting of advies met bronnen. Bestaat uit een Chrome-extensie, een marketingsite en een SaaS-backend met abonnementen.
+An AI browser assistant: select a few open Chrome tabs, describe what you want in a normal sentence, and TabPilot reads those pages and returns one structured answer — a comparison table, a summary or a recommendation with sources. Consists of a Chrome extension, a marketing site and a SaaS backend with subscriptions.
 
-**Gebouwd met:** Next.js 15, Tailwind, Supabase, Stripe, Chrome Extension API.
+**Built with:** Next.js 15, Tailwind, Supabase, Stripe, Chrome Extension API.
 
 ---
 
 ### AceBot Live Casino
 
-Drie casinotafels in de browser met een geanimeerde 3D-croupier: **Blackjack VIP** (met Perfect Pairs, 21+3 en Bust It), **Europese roulette** en het **Crazy Wheel**-geldwiel. Alleen speelgeld, geen server nodig.
+Three casino tables in the browser with an animated 3D dealer: **Blackjack VIP** (with Perfect Pairs, 21+3 and Bust It), **European roulette** and the **Crazy Wheel** money wheel. Play money only, no server required.
 
-**Gebouwd met:** HTML, JavaScript, Three.js.
-
----
-
-### Nami Sushi
-
-Landingspagina voor een sushirestaurant, met menu, chef en reserveringen.
-
-![Nami Sushi](images/nami-sushi/hero-sushi.jpg)
-
-**Gebouwd met:** Next.js, Tailwind, Vercel.
+**Built with:** HTML, JavaScript, Three.js.
 
 ---
 
-## Discord-bots
+## Discord bots
 
 ### DMuri
 
-Een Discord-bot die aanvoelt als een persoon in plaats van een commandomenu — zonder AI-backend, alles gescript. Ze leest eerst, typt zo lang als haar antwoord echt zou duren en heeft per server een stemming die vanzelf verschuift ('s nachts lager, 's avonds hoger, en afhankelijk van hoe mensen tegen haar doen). Daarnaast profielkaarten, levels, vriendschappen, een verificatiesysteem en een personasysteem met eigen character creator.
+A Discord bot that feels like a person rather than a command menu — no AI backend, everything scripted. She reads first, types for as long as her reply would really take, and has a mood per server that drifts on its own (lower at night, higher in the evening, and depending on how people treat her). Also includes profile cards, levels, friendships, a verification system and a persona system with its own character creator.
 
-| Profielkaart | Levelkaart |
+| Profile card | Level card |
 | --- | --- |
-| ![Profiel](images/dmuri/profile-card.png) | ![Level](images/dmuri/level-card.png) |
+| ![Profile](images/dmuri/profile-card.png) | ![Level](images/dmuri/level-card.png) |
 
-| Persona-creator | Stemming |
+| Persona creator | Mood |
 | --- | --- |
 | ![Persona](images/dmuri/persona-creator.png) | ![Mood](images/dmuri/mood.png) |
 
-![Vriendschap](images/dmuri/friend-banner.png)
+![Friendship](images/dmuri/friend-banner.png)
 
-**Gebouwd met:** Node.js, discord.js, canvas-rendering.
+**Built with:** Node.js, discord.js, canvas rendering.
 
 ---
 
 ### Bloom Cloud bot
 
-Bloom Cloud in Discord. De bot heeft geen eigen database en geen eigen regels: elk commando gaat via dezelfde services als het dashboard, met dezelfde limieten en auditlog. Rechten worden bepaald op basis van het Bloom-account van wie het commando typt, niet van de bot.
+Bloom Cloud inside Discord. The bot has no database and no rules of its own: every command goes through the same services as the dashboard, with the same limits and audit log. Permissions are based on the Bloom account of whoever typed the command, not on the bot.
 
-**Gebouwd met:** TypeScript, discord.js, Docker.
-
----
-
-### d2s-bot
-
-Koppelt de livechat op de Drivin2Solutions-websites aan Discord. Elk gesprek wordt een eigen thread in een forumkanaal, met de gegevens van de bezoeker en knoppen om over te nemen of te sluiten. Support typt gewoon in de thread en dat komt live bij de bezoeker aan, en andersom.
-
-**Gebouwd met:** Node.js, discord.js, WebSockets, Docker.
+**Built with:** TypeScript, discord.js, Docker.
 
 ---
 
 ### NexusBot
 
-Een alles-in-één Discord-bot met meer dan 40 functies: spellen (tellen, woordslang, Akinator, coin drops), moderatie, statusrollen, staffbeheer, kanaalbeheer en meer.
+An all-in-one Discord bot with more than 40 features: games (counting, word snake, Akinator, coin drops), moderation, status roles, staff management, channel management and more.
 
-**Gebouwd met:** Python, discord.py.
+**Built with:** Python, discord.py.
 
 ---
 
-## Overig
+## Other
 
 ### DroneWatch
 
-Een Android-app — "Flitsmeister voor drones" — die passief Remote ID-signalen (ASTM F3411 / OpenDroneID) van drones opvangt via Bluetooth en ze op een kaart, radar en live-lijst toont. Met instelbare waarschuwingen via geofences, afstandsringen van 250 m tot 2 km en een lokale geschiedenis. De app ontvangt alleen; hij bestuurt of stoort niets.
+An Android app that passively receives Remote ID signals (ASTM F3411 / OpenDroneID) from drones over Bluetooth and shows them on a map, radar and live list. Includes configurable geofence alerts, distance rings from 250 m to 2 km and a local history. The app only receives; it never controls or interferes with anything.
 
-**Gebouwd met:** Kotlin, Android, Bluetooth Low Energy, OpenStreetMap (osmdroid).
+**Built with:** Kotlin, Android, Bluetooth Low Energy, OpenStreetMap (osmdroid).
 
 ---
 
-### XAUUSD MetaTrader 5-bot
+### XAUUSD MetaTrader 5 bot
 
-Een tradingbot die op een **demo-account** goud handelt met een trend-pullback-strategie, ATR-gebaseerde stop loss en take profit, trailing stop en een dagelijkse verlieslimiet. De bot weigert te starten op een echt account. Inclusief webdashboard en TradingView-koppeling.
+A trading bot that trades gold on a **demo account** using a trend-pullback strategy, ATR-based stop loss and take profit, a trailing stop and a daily loss limit. The bot refuses to start on a live account. Includes a web dashboard and TradingView integration.
 
-**Gebouwd met:** Python, MetaTrader 5 API.
+**Built with:** Python, MetaTrader 5 API.
