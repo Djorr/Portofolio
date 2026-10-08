@@ -679,6 +679,16 @@ A community Discord bot built around **pixel-art avatars and profiles** — and 
 | Raid actions | Warning | Warning, kick, lockdown |
 | Join DM & reports | ❌ | ✅ |
 
+#### The whole server as a tree
+
+Every join is traced back up the branches, so you can see who invited who across the entire server — from the founders down to the newest members.
+
+![Server invite tree](images/invitree/full-tree.png)
+
+| Invite tree page in the web dashboard |
+| :---: |
+| ![Dashboard invite tree](images/invitree/dashboard-tree.png) |
+
 #### Generated cards & dashboard
 
 | Invite tree card | Leaderboard card |
