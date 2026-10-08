@@ -17,24 +17,71 @@
 
 ---
 
+## 👋 About
+
+- 🗓️ **Programming since January 2017** — almost 10 years, starting with my own Minecraft network plugins (cores, lobbies, friends/party systems, anti-cheat watchdogs).
+- 🎓 MBO diploma *Application & Media Developer*.
+- 🏢 Working as **Rubix Studios / Rubix Development**, building plugins, cores, bots and web platforms for Minecraft servers and other clients.
+
+### Servers & networks I've built for
+
+| Server / client | Period | What I did |
+| --- | --- | --- |
+| **Kunai Network** | 2020 – 2021 | UHCF core (extended Lazarus), lobby with queue, crates |
+| **TurtleMC** | 2021 – 2023 | Spartacus UHCF core, custom enchants, crates, lobby, tutorial server, anti-VPN, Discord bot |
+| **SwiftPvP** | 2021 – 2022 | UHCF core, SwiftQueue, UHC Bunkers, tutorial server |
+| **RivalMC** | 2022 | StaffCoin and state-company plugins |
+| **MTW / MinetopiaSDB servers** | 2025 | Duty system, AntiDupe, BalTop, BuildMode |
+| **VloedjeSMP** | 2025 | Streamer & portal tools |
+| **CrashVille** | 2026 | Complete Dutch roleplay server with resource pack |
+| **Bloom Cloud** | 2026 | Licensing platform + Discord bot |
+| **BioVerse** (client) | 2026 | Community Discord bot |
+
+### Timeline
+
+| Period | Project | Time spent* |
+| --- | --- | --- |
+| Oct 2026 | Invitree | a few days |
+| Sep – Oct 2026 | BioVerse | ~3 weeks · 388 commits |
+| Sep – Oct 2026 | CrashVille | ~2 weeks of intensive work · 619 commits |
+| Aug – Oct 2026 | MatrixPearls web panel | ~6 weeks · 115 commits |
+| Sep 2026 | MT-Grinding | ~1.5 weeks |
+| Sep 2026 | YT-Builds | a few days |
+| Jul – Sep 2026 | Bloom Cloud + bot | ~2 months · 460 commits |
+| Aug 2026 | Linguify, Billify | a few days each |
+| 2020 – 2026 | MatrixPearls plugin | on and off for 6 years · 263 commits |
+| Jun – Jul 2025 | Dynamic Shop, MTW, MinetopiaSDB & VloedjeSMP plugins | released summer 2025 |
+| Dec 2022 – Jan 2023 | UHCF Addons, UHCF Classes, Lazarus addons | ~3 weeks |
+| 2021 – 2023 | TurtleMC network | ~2 years |
+| 2021 – 2022 | SwiftPvP network | ~9 months |
+| 2020 – 2021 | Kunai Network | ~1 year · ~485 of ~700 commits |
+| 2017 – 2019 | First network plugins (cores, lobbies, friends, party, bans, KitPvP) | ~3 years |
+
+<sub>* Estimated from git history and file dates. Some 2025 repositories were uploaded after the work was finished, so their real development time was longer.</sub>
+
+---
+
 ## 📑 Contents
 
-| ⛏️ Minecraft | 🤖 Discord |
-| --- | --- |
-| [CrashVille](#-crashville) — full Dutch roleplay server | [BioVerse](#-bioverse) — avatars, profiles & a human-like bot |
-| [MatrixPearls](#-matrixpearls) — Ender Pearl reliability + 3D replay panel | [Invitree](#-invitree) — invite tracking with web dashboard |
-| [YT-Builds](#-yt-builds) — automated cinematic build timelapses | [Bloom Cloud bot](#-bloom-cloud-bot) — licence management in Discord |
-| [Linguify](#-linguify) — per-player chat translation |  |
-| [MT-Grinding](#-mt-grinding) — four grinding jobs |  |
-| [Billify](#-billify) — FiveM-style invoices |  |
-| [Dynamic Shop System](#-dynamic-shop-system) — supply & demand economy |  |
-| [Smaller plugins](#-smaller-plugins) |  |
+| ⛏️ Minecraft | ⚔️ HCF / UHCF | 🤖 Discord |
+| --- | --- | --- |
+| [CrashVille](#-crashville) — full Dutch roleplay server | [TurtleMC](#-turtlemc--op-uhcf-network) | [BioVerse](#-bioverse) — avatars, profiles & a human-like bot |
+| [MatrixPearls](#-matrixpearls) — Ender Pearl reliability + 3D replay panel | [Kunai Network](#-kunai-network--uhcf-core) | [Invitree](#-invitree) — invite tracking with web dashboard |
+| [YT-Builds](#-yt-builds) — automated cinematic build timelapses | [SwiftPvP](#-swiftpvp--uhcf-network) | [Bloom Cloud bot](#-bloom-cloud-bot) — licence management in Discord |
+| [Linguify](#-linguify) — per-player chat translation | [UHCF Addons & Classes](#-uhcf-addons--classes) |  |
+| [MT-Grinding](#-mt-grinding) — four grinding jobs |  |  |
+| [Billify](#-billify) — FiveM-style invoices |  |  |
+| [Dynamic Shop System](#-dynamic-shop-system) — supply & demand economy |  |  |
+| [Smaller plugins](#-smaller-plugins) |  |  |
 
 ---
 
 # ⛏️ Minecraft
 
 ## 🏙️ CrashVille
+
+> 🗓️ Sep – Oct 2026 · ~2 weeks of intensive work · 619 commits
+
 
 A complete Dutch roleplay server built as one large Paper plugin, with its own resource pack, hundreds of custom 3D models and a recreated map of Amsterdam and the Bijlmer.
 
@@ -285,6 +332,9 @@ Everything in CrashVille is drawn in a custom resource pack: GUIs, phone screens
 
 ## 🟣 MatrixPearls
 
+> 🗓️ 2020 – 2026 · plugin on and off for 6 years, web panel Aug – Oct 2026
+
+
 An Ender Pearl reliability system for Minecraft **1.7 – 1.20.4**, with its own web panel. On most servers pearls break at corners, trapdoors and glass, and nobody can tell afterwards why. MatrixPearls fixes that — and records every throw.
 
 - 🧩 **Plugin** — shared core plus a compatibility module per Minecraft version, so behaviour is identical everywhere.
@@ -302,6 +352,9 @@ An Ender Pearl reliability system for Minecraft **1.7 – 1.20.4**, with its own
 ---
 
 ## 🗼 YT-Builds
+
+> 🗓️ Sep 2026 · a few days
+
 
 A fully automated pipeline that designs a Minecraft build, has it built and turns it into a cinematic timelapse — zero manual work.
 
@@ -330,6 +383,9 @@ A fully automated pipeline that designs a Minecraft build, has it built and turn
 ---
 
 ## 🌐 Linguify
+
+> 🗓️ Aug 2026
+
 
 Translates server chat for **every player individually** — works out of the box with free translation services, no API key needed.
 
@@ -364,6 +420,9 @@ Every one of the 30 languages gets a pixel-art flag — in the language picker, 
 ---
 
 ## 🎣 MT-Grinding
+
+> 🗓️ Sep 2026 · ~1.5 weeks
+
 
 Four complete grinding jobs for Minetopia servers. Every tool wears down (Unbreaking included), configurable per ore or crop.
 
@@ -433,6 +492,9 @@ On CrashVille the grinding jobs come with a full custom resource pack: illustrat
 
 ## 🧾 Billify
 
+> 🗓️ Aug 2026
+
+
 A FiveM-style invoice system for roleplay and economy servers (**1.14 – 1.20**).
 
 **How it works:** players with the right rank send an invoice with `/invoice create <player> <amount> <reason>` — each rank has its own maximum amount, and the receiver is notified instantly. `/invoice` (or right-clicking a configured item or block) opens a menu with tabs for open and paid invoices, the player's balance and pagination. Clicking an open invoice pays it. Unpaid invoices past their deadline go to debt collection, which sends reminders, adds a fee and can collect automatically. Staff can view or cancel anyone's invoices.
@@ -460,6 +522,9 @@ Invoices become torn paper receipts with a coloured status strip, your balance g
 ---
 
 ## 🛒 Dynamic Shop System
+
+> 🗓️ Jun – Jul 2025
+
 
 A shop system for **1.21.5** with a realistic economy.
 
@@ -496,6 +561,9 @@ The shop menus turn into a market stall: a striped awning, illustrated category 
 ## 🧰 Smaller plugins
 
 ### 👮 MTW-Dienst — duty system for roleplay servers
+
+> 🗓️ Jul 2025
+
 Made for police, ambulance and other services on a roleplay server. Admins create a service with `/dienst maak <name>` and save a kit from their own inventory (`/dienst edit <name> setkit`). A player with permission runs `/indienst <name>`: their own items and armor are stored and replaced by the duty kit. `/uitdienst` restores everything exactly, so personal items and service gear never mix.
 
 | Duty cycle: before → `/indienst politie` → kit → `/uitdienst` → restored |
@@ -515,6 +583,9 @@ A duty locker where you pick your service with big icon buttons and preview the 
 
 
 ### 🛡️ MTW-AntiDupe — dupe detection (1.12.2)
+
+> 🗓️ Jul 2025
+
 Watches for known dupe methods: rapid or multiple chest opening, breaking an open chest, hoppers, deaths near containers, oversized creative stacks and blocked commands like `/more`. Every detection alerts staff in-game, is written to a log file and can be posted to Discord. Repeat offenders get warnings (1/3 → 3/3) and are then kicked or banned.
 
 | Staff alerts | Player warnings & kick |
@@ -532,6 +603,9 @@ A security dashboard for staff with totals, the status of all nine detectors and
 
 
 ### 💰 MinetopiaSDB BalTop
+
+> 🗓️ Jul 2025
+
 `/sdbbaltop [page] [personal|savings|business|government|all]` adds up every player's MinetopiaSDB balances, shows server-wide totals per account type and a ranked, paginated list of the richest players. Fully asynchronous, works on 1.12 – 1.21.
 
 | Page 1 with server totals | Pagination |
@@ -545,6 +619,9 @@ A bank-styled leaderboard with the top 3 on a podium, tabs per account type, a p
 
 
 ### 🏗️ MinetopiaSDB BuildMode
+
+> 🗓️ Jul 2025
+
 `/buildmode` puts staff in creative and stores their survival inventory, which comes back when they switch off — also automatically on restart or reload. While active they can build, but dropping or picking up items, opening containers and using entities are blocked, so creative items never leak into the economy.
 
 | Enable / disable flow | What is blocked |
@@ -558,6 +635,9 @@ A toggle panel with session status, plus a boss bar, blocked-actions panel and t
 
 
 ### 📺 VloedjeSMP-Addon
+
+> 🗓️ Jul 2025
+
 `/live` gives a streamer a `[LIVE]` tag in the tab list, announces the stream server-wide and makes them glow for 30 seconds. `/portal` converts your position into the matching Nether or Overworld coordinates (÷8 / ×8) so linked portals line up.
 
 | [LIVE] tab tag | Stream broadcast | Portal coordinates |
@@ -574,11 +654,110 @@ A red LIVE badge in the tab list, a stream announcement toast, and a portal calc
 
 ---
 
+# ⚔️ HCF / UHCF networks
+
+## 🐢 TurtleMC — OP UHCF network
+
+> 🗓️ 2021 – 2023 · ~2 years
+
+Plugins I wrote for **TurtleMC**, an OP UHC Factions server: the **Spartacus** core, custom enchants, crates, the lobby, a tutorial server, an anti-VPN and a Discord ticket bot.
+
+- ⚔️ Factions with claims, subclaims, DTR, rally and hostage timers
+- 🎯 PvP classes (Bard, Archer, Miner) live on the sidebar with energy and cooldowns
+- 🧪 Ability items: Anti Build, Paralyzed Hoe, Freeze Ball, Pocket Bard, Fake Pearl, Rocket, Web Shooter…
+- 👑 KoTH events with capture broadcasts and a top-faction summary
+- ✨ Custom enchants: TripleShot, Grapple Harpoon, Magnet Rod, Bleed Bomb, Explosive, Poison…
+- 🛠️ Staff mode, vanish, kits, trade, gapple storage, portable portals, Lunar Client integration
+
+**How it works:** one modular core with a YAML file per feature (abilities, classes, scoreboard, timers…). Each system registers its own listeners and commands, and the scoreboard builds its sections live from the player's state.
+
+| Trailer | Scoreboard |
+| :---: | :---: |
+| ![](images/turtlemc/turtlemc-trailer.gif) | ![](images/turtlemc/scoreboard.png) |
+| **KoTH capture** | **Faction chat & claims** |
+| ![](images/turtlemc/koth-capped.png) | ![](images/turtlemc/faction-chat.png) |
+| **Ability items** | **Custom enchants** |
+| ![](images/turtlemc/abilities.png) | ![](images/turtlemc/custom-enchants.png) |
+
+**Built with:** Java 8 · Spigot 1.8.8 · Maven · MySQL · LuckPerms · Vault · JDA · BungeeCord
+
+---
+
+## 🗡️ Kunai Network — UHCF core
+
+> 🗓️ 2020 – 2021 · ~1 year · ~485 of ~700 commits
+
+For **Kunai Network** I extended the open-source Lazarus HCF core into a full UHCF core together with a small team, writing most of the commits. I also built the Kunai lobby with its queue system, and the crates.
+
+- 🧪 Ability system with "Legendary" items (Pearl Catcher, Invisibility Cloak, Pocket Bard…)
+- 💰 Bounties, mines, NPCs, shop, trade, portable portals and statistics
+- 🌙 Lunar Client integration, anti-swear filter, custom tab
+- 🏠 Lobby with its own scoreboard and server queue
+
+**How it works:** developed in Git with feature branches and 140+ pull requests. Each new system lives in its own package on top of the Lazarus base and is configured through YAML.
+
+| Scoreboard | Faction chat |
+| :---: | :---: |
+| ![](images/kunai/scoreboard.png) | ![](images/kunai/faction-chat.png) |
+
+| Legendary abilities |
+| :---: |
+| ![](images/kunai/legendary-abilities.png) |
+
+**Built with:** Java 8 · Spigot 1.8 · Maven · MySQL · Lunar Client API
+
+---
+
+## 🌀 SwiftPvP — UHCF network
+
+> 🗓️ 2021 – 2022 · ~9 months
+
+For **SwiftPvP** I built my own UHCF core (v1.3.2), the **SwiftQueue** proxy queue, a UHC Bunkers mode and a tutorial server for new players.
+
+- ⚔️ UHCF core with factions, classes, abilities, KoTH, deathbans, combat loggers and kits
+- 🚦 SwiftQueue: a BungeeCord queue backed by MySQL
+- 🏰 UHC Bunkers game mode
+- 🎓 Tutorial server that teaches new players the game
+
+**How it works:** a BungeeCord proxy routes players from the hub through the queue to the game servers, which share MySQL databases for profiles, statistics and the queue.
+
+| Scoreboard | Chat |
+| :---: | :---: |
+| ![](images/swiftpvp/scoreboard.png) | ![](images/swiftpvp/chat.png) |
+
+**Built with:** Java 8 · Spigot/Paper 1.8 · BungeeCord · MySQL
+
+---
+
+## 🧩 UHCF Addons & Classes
+
+> 🗓️ Dec 2022 – Jan 2023
+
+Add-on plugins for a modern Lazarus UHCF server (1.19). **UHCF Addons** adds short faction commands and permanent invites; **UHCF Classes** adds Archer and Bard classes with a public API.
+
+- ⌨️ 22 shortcuts: `/fcreate`, `/fclaim`, `/finvite`, `/fdeposit`, `/fwithdraw`, `/fsethome`…
+- ♾️ `/perminvite` and `/permjoin` for invites that never expire
+- 📜 `/factionlog` to see a faction's history
+- 🏹 Archer and Bard classes with equip/unequip events and a ClassesAPI
+
+**How it works:** both plugins hook into Lazarus as a dependency and add features without touching the core.
+
+| Shortcut commands | Classes |
+| :---: | :---: |
+| ![](images/uhcf-addons/shortcuts.png) | ![](images/uhcf-addons/classes.png) |
+
+**Built with:** Java 17 · Spigot/Paper 1.19 · Maven · Lazarus API
+
+---
+
 # 🤖 Discord
 
 > ⚠️ **BioVerse** is an unreleased client project. All previews are watermarked.
 
 ## 🌌 BioVerse
+
+> 🗓️ Sep – Oct 2026 · ~3 weeks · 388 commits
+
 
 A community Discord bot built around **pixel-art avatars and profiles** — and a bot that feels like a **person, not a command menu**. There is no AI backend; everything is scripted. New members go through a guided onboarding (avatar, bio, birthday, pronouns, region, languages), then earn XP and coins, play chat games, build friendships and climb leaderboards.
 
@@ -656,6 +835,9 @@ A community Discord bot built around **pixel-art avatars and profiles** — and 
 
 ## 🌳 Invitree
 
+> 🗓️ Oct 2026
+
+
 ![Invitree](images/invitree/hero.png)
 
 **See who invites who.** An invite-tracking bot with a web dashboard and documentation site.
@@ -704,6 +886,9 @@ Every join is traced back up the branches, so you can see who invited who across
 ---
 
 ## ☁️ Bloom Cloud bot
+
+> 🗓️ Jul – Sep 2026 · ~2 months (platform + bot) · 460 commits
+
 
 ![Bloom Cloud bot](images/bloom-cloud-bot/hero.png)
 
