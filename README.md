@@ -21,14 +21,14 @@
 
 | ⛏️ Minecraft | 🤖 Discord |
 | --- | --- |
-| [CrashVille](#-crashville) — full Dutch roleplay server | [DMuri](#-dmuri) — a bot that feels like a person |
-| [MatrixPearls](#-matrixpearls) — Ender Pearl reliability + 3D replay panel | [BioVerse](#-bioverse) — profiles, avatars & community games |
-| [YT-Builds](#-yt-builds) — automated cinematic build timelapses | [Invitree](#-invitree) — invite tracking with web dashboard |
-| [Linguify](#-linguify) — per-player chat translation | [Bloom Cloud bot](#-bloom-cloud-bot) — licence management in Discord |
-| [MT-Grinding](#-mt-grinding) — four grinding jobs | [d2s-bot](#-d2s-bot) — website live chat ↔ Discord |
-| [Billify](#-billify) — FiveM-style invoices | [NexusBot](#-nexusbot) — 40+ utility features |
-| [Dynamic Shop System](#-dynamic-shop-system) — supply & demand economy | |
-| [Smaller plugins](#-smaller-plugins) | |
+| [CrashVille](#-crashville) — full Dutch roleplay server | [BioVerse](#-bioverse) — avatars, profiles & a human-like bot |
+| [MatrixPearls](#-matrixpearls) — Ender Pearl reliability + 3D replay panel | [Invitree](#-invitree) — invite tracking with web dashboard |
+| [YT-Builds](#-yt-builds) — automated cinematic build timelapses | [Bloom Cloud bot](#-bloom-cloud-bot) — licence management in Discord |
+| [Linguify](#-linguify) — per-player chat translation |  |
+| [MT-Grinding](#-mt-grinding) — four grinding jobs |  |
+| [Billify](#-billify) — FiveM-style invoices |  |
+| [Dynamic Shop System](#-dynamic-shop-system) — supply & demand economy |  |
+| [Smaller plugins](#-smaller-plugins) |  |
 
 ---
 
@@ -175,9 +175,19 @@ A fully automated pipeline that designs a Minecraft build, has it built and turn
 
 Translates server chat for **every player individually** — works out of the box with free translation services, no API key needed.
 
-- 💬 **Player chat** — a Spanish player sees Dutch chat in Spanish; hover reveals the original.
-- 👋 **Join & quit messages** in everyone's own language.
-- 🔌 **Server & plugin messages** (Essentials, WorldEdit, …) rewritten per player at packet level.
+**How it works:** each player picks their own language with `/lang` — through a menu, a clickable chat list or `/lang set <code>`. Linguify then translates player chat, join/quit messages and server/plugin messages into that language. By default chat keeps the original text with the translation on hover; in *replace* mode it's the other way round. Players toggle features and hover style in `/lang settings`. Free providers (Google, MyMemory) need no key, and every translation is cached so each text is only translated once.
+
+| Choosing a language | Clickable chat picker |
+| :---: | :---: |
+| ![](images/linguify/ex-pick-language.png) | ![](images/linguify/ex-chat-selector.png) |
+
+| Chat translated per player |
+| :---: |
+| ![](images/linguify/ex-chat-translation.png) |
+
+| Personal settings (`/lang settings`) | Server statistics (`/lang stats`) |
+| :---: | :---: |
+| ![](images/linguify/ex-settings.png) | ![](images/linguify/ex-stats.png) |
 
 **Built with:** Java (Spigot/Paper) · packet interception
 
@@ -185,112 +195,143 @@ Translates server chat for **every player individually** — works out of the bo
 
 ## 🎣 MT-Grinding
 
-Four complete grinding jobs for Minetopia servers.
+Four complete grinding jobs for Minetopia servers. Every tool wears down (Unbreaking included), configurable per ore or crop.
 
-| Job | What it does |
-| --- | --- |
-| 🎣 **Fishing** | Minigame with a moving marker, green zone and rising loot rarity |
-| ⛏️ **Mining** | Ores per pickaxe tier, regenerating blocks and a buy/sell NPC |
-| 📦 **Mail delivery** | Pick up parcels and deliver them to the door the particles point to |
-| 🌾 **Farming** | Sickle, grind wheat into flour at the mill, sell at the trader |
+### 🎣 Fishing
+When a fish bites, a minigame appears on screen: a marker slides over a bar with a green zone. Right-click while it's in the green to fill the progress bar — miss and you lose progress. The further you get, the rarer the loot (Common → Legendary). Better rods fill faster and widen the green zone.
 
-All tools wear down (Unbreaking included), configurable per ore or crop.
+| Minigame flow | Fisher NPC shop |
+| :---: | :---: |
+| ![](images/mt-grinding/ex-fishing-minigame.png) | ![](images/mt-grinding/ex-fishing-shop.png) |
+
+### ⛏️ Mining
+Each ore has its own allowed pickaxes, required level, drop and regrow time. A mined ore turns into bedrock with a countdown hologram and grows back. The Miner NPC buys ores and sells pickaxes.
+
+| Pickaxe rules & ore regeneration | Miner NPC sell flow |
+| :---: | :---: |
+| ![](images/mt-grinding/ex-mining-ores.png) | ![](images/mt-grinding/ex-mining-shop.png) |
+
+### 📦 PostNL delivery
+The postman hands out a route of 1–5 packages, each with its own resident, address and reward. The actionbar shows the distance, and a particle trail paths around walls to the right door, where a short knock-and-hand-over cutscene plays.
+
+| Route & directions | Doorstep delivery |
+| :---: | :---: |
+| ![](images/mt-grinding/ex-postnl-route.png) | ![](images/mt-grinding/ex-postnl-delivery.png) |
+
+### 🌾 Farming
+Harvest crops with a hoe; they replant automatically. In the Farmer NPC's mill you put in wheat, click the gears and watch the progress bar turn it into flour, which sells for a high price.
+
+| Farmer NPC & hoe shop | Mill flow |
+| :---: | :---: |
+| ![](images/mt-grinding/ex-farming-farmer.png) | ![](images/mt-grinding/ex-farming-mill.png) |
 
 ---
 
 ## 🧾 Billify
 
-A FiveM-style invoice system for roleplay and economy servers (**1.14 – 1.20**). Players send each other invoices and manage open and paid ones in a GUI, opened via a command, item or block. Commands, permissions and menus are fully configurable.
+A FiveM-style invoice system for roleplay and economy servers (**1.14 – 1.20**).
+
+**How it works:** players with the right rank send an invoice with `/invoice create <player> <amount> <reason>` — each rank has its own maximum amount, and the receiver is notified instantly. `/invoice` (or right-clicking a configured item or block) opens a menu with tabs for open and paid invoices, the player's balance and pagination. Clicking an open invoice pays it. Unpaid invoices past their deadline go to debt collection, which sends reminders, adds a fee and can collect automatically. Staff can view or cancel anyone's invoices.
+
+| Sending an invoice | Open invoices menu |
+| :---: | :---: |
+| ![](images/billify/ex-create-invoice.png) | ![](images/billify/ex-open-invoices.png) |
+| **Paying an invoice** | **Paid / cancelled history** |
+| ![](images/billify/ex-pay-invoice.png) | ![](images/billify/ex-paid-invoices.png) |
+| **Debt collection** | **Commands** |
+| ![](images/billify/ex-debt-collection.png) | ![](images/billify/ex-commands.png) |
 
 ---
 
 ## 🛒 Dynamic Shop System
 
-A shop system for **1.21.5** with a realistic economy: admin shops with fixed prices, player shops with their own stock, categories, and **prices that move with supply and demand** — all through an extensive GUI, backed by a database.
+A shop system for **1.21.5** with a realistic economy.
+
+**How it works:** `/shop` opens a category menu (Food, Tools, Blocks, Weapons, Armor, Misc). From there you browse admin and player shops, open an item to see its current price, base price, stock and % change, and buy or sell 1–64 at a time. Every 5 minutes player-shop prices move 5–25% based on supply and demand and are saved to a price history; stock refills every 10 minutes. Selling pays 80% of the buy price, while admin shops keep fixed prices and unlimited stock. Stored in SQLite or MySQL.
+
+| Category menu | Shop item list |
+| :---: | :---: |
+| ![](images/dynamic-shop-system/ex-main-menu.png) | ![](images/dynamic-shop-system/ex-shop-items.png) |
+
+| Buy flow: details → quantity → result |
+| :---: |
+| ![](images/dynamic-shop-system/ex-buy-flow.png) |
+
+| Dynamic pricing: before, after and price history |
+| :---: |
+| ![](images/dynamic-shop-system/ex-price-change.png) |
+
+| Shop management (`/shopadmin`) |
+| :---: |
+| ![](images/dynamic-shop-system/ex-shop-management.png) |
 
 ---
 
 ## 🧰 Smaller plugins
 
-| Plugin | What it does |
-| --- | --- |
-| **MTW-AntiDupe** | Detects and logs dupes via chests, hoppers, pistons, redstone, explosions, creative and commands (1.12.2) |
-| **MTW-Dienst** | `/indienst` & `/uitdienst` — saves your inventory, gives your duty kit and restores everything afterwards |
-| **MTW-Reports** | `/report <message>` to online staff, with cooldown and Discord webhook logging |
-| **MinetopiaSDB BalTop** | Async balance top combining Vault balances and MinetopiaSDB savings, paginated (1.12 – 1.21) |
-| **MinetopiaSDB BuildMode** | Safe build mode without external dependencies (1.12 – 1.18+) |
-| **VloedjeSMP-Addon** | `/live` for streamers (tab tag, broadcast, glow) and `/portal` for Overworld ↔ Nether coordinates |
+### 👮 MTW-Dienst — duty system for roleplay servers
+Made for police, ambulance and other services on a roleplay server. Admins create a service with `/dienst maak <name>` and save a kit from their own inventory (`/dienst edit <name> setkit`). A player with permission runs `/indienst <name>`: their own items and armor are stored and replaced by the duty kit. `/uitdienst` restores everything exactly, so personal items and service gear never mix.
+
+| Duty cycle: before → `/indienst politie` → kit → `/uitdienst` → restored |
+| :---: |
+| ![](images/mtw-dienst/ex-duty-cycle.png) |
+
+| Admin setup | Permission & state checks |
+| :---: | :---: |
+| ![](images/mtw-dienst/ex-admin-setup.png) | ![](images/mtw-dienst/ex-permissions.png) |
+
+### 🛡️ MTW-AntiDupe — dupe detection (1.12.2)
+Watches for known dupe methods: rapid or multiple chest opening, breaking an open chest, hoppers, deaths near containers, oversized creative stacks and blocked commands like `/more`. Every detection alerts staff in-game, is written to a log file and can be posted to Discord. Repeat offenders get warnings (1/3 → 3/3) and are then kicked or banned.
+
+| Staff alerts | Player warnings & kick |
+| :---: | :---: |
+| ![](images/mtw-antidupe/ex-staff-alerts.png) | ![](images/mtw-antidupe/ex-player-warning.png) |
+
+| `/antidupe status` | Log file | Discord webhook |
+| :---: | :---: | :---: |
+| ![](images/mtw-antidupe/ex-status.png) | ![](images/mtw-antidupe/ex-log-file.png) | ![](images/mtw-antidupe/ex-discord.png) |
+
+### 💰 MinetopiaSDB BalTop
+`/sdbbaltop [page] [personal|savings|business|government|all]` adds up every player's MinetopiaSDB balances, shows server-wide totals per account type and a ranked, paginated list of the richest players. Fully asynchronous, works on 1.12 – 1.21.
+
+| Page 1 with server totals | Pagination |
+| :---: | :---: |
+| ![](images/baltop/ex-baltop-page1.png) | ![](images/baltop/ex-baltop-page2.png) |
+
+### 🏗️ MinetopiaSDB BuildMode
+`/buildmode` puts staff in creative and stores their survival inventory, which comes back when they switch off — also automatically on restart or reload. While active they can build, but dropping or picking up items, opening containers and using entities are blocked, so creative items never leak into the economy.
+
+| Enable / disable flow | What is blocked |
+| :---: | :---: |
+| ![](images/buildmode/ex-buildmode-toggle.png) | ![](images/buildmode/ex-buildmode-blocked.png) |
+
+### 📺 VloedjeSMP-Addon
+`/live` gives a streamer a `[LIVE]` tag in the tab list, announces the stream server-wide and makes them glow for 30 seconds. `/portal` converts your position into the matching Nether or Overworld coordinates (÷8 / ×8) so linked portals line up.
+
+| [LIVE] tab tag | Stream broadcast | Portal coordinates |
+| :---: | :---: | :---: |
+| ![](images/vloedjesmp/ex-live-tab.png) | ![](images/vloedjesmp/ex-live-broadcast.png) | ![](images/vloedjesmp/ex-portal.png) |
 
 ---
 
 # 🤖 Discord
 
-> ⚠️ **DMuri** and **BioVerse** are unreleased client projects. Their previews are watermarked.
-
-## 💜 DMuri
-
-A Discord bot that feels like a **person, not a command menu** — no AI backend, everything scripted.
-
-- ⌨️ She reads before answering, then types for as long as her reply would really take.
-- 🌗 A per-server mood that drifts on its own — lower at 4 am, higher in the evening, shifting with how people treat her.
-- 🪪 Profile cards, levels, coins, leaderboards and chat games.
-- 🤝 Best friends, favourites and interactions (wave, poke, pat).
-- ✅ A full verification flow with animated explainers.
-- 🎨 A persona system with its own character creator.
-
-### Cards & profiles
-
-| Profile card | Level card |
-| :---: | :---: |
-| ![Profile](images/dmuri/01-profile-card.png) | ![Level](images/dmuri/02-level-card.png) |
-| **Leaderboard** | **Bio approved** |
-| ![Leaderboard](images/dmuri/12-leaderboard.png) | ![Bio](images/dmuri/11-bio-approved.png) |
-
-### Chat games
-
-| Word scramble | Quiz | Winner |
-| :---: | :---: | :---: |
-| ![Scramble](images/dmuri/03-game-scramble.png) | ![Quiz](images/dmuri/04-game-quiz.png) | ![Win](images/dmuri/05-game-win.png) |
-
-### Friendships & interactions
-
-| Best friend request | Accepted |
-| :---: | :---: |
-| ![Request](images/dmuri/06-bestfriend-request.png) | ![Accepted](images/dmuri/07-bestfriend-accepted.png) |
-
-![Best friend banner](images/dmuri/08-bestfriend-banner.png)
-
-| Favourite | Wave | Poke | Pat |
-| :---: | :---: | :---: | :---: |
-| ![Favorite](images/dmuri/09-favorite.png) | ![Wave](images/dmuri/10-wave.png) | ![Poke](images/dmuri/10-poke.png) | ![Pat](images/dmuri/10-pat.png) |
-
-### Persona & mood
-
-| Persona creator | Mood |
-| :---: | :---: |
-| ![Persona](images/dmuri/persona-creator.png) | ![Mood](images/dmuri/mood.png) |
-
-### Verification flow
-
-| Get verified | Rules |
-| :---: | :---: |
-| ![Get verified](images/dmuri/GetVerified.gif) | ![Rules](images/dmuri/rules.gif) |
-| **Explainer** | **Flagged zone** |
-| ![Explainer](images/dmuri/VerificationExplainer.gif) | ![Flagged](images/dmuri/flagged_zone.gif) |
-
-**Built with:** Node.js · discord.js · server-side image rendering
-
----
+> ⚠️ **BioVerse** is an unreleased client project. All previews are watermarked.
 
 ## 🌌 BioVerse
 
-A community Discord bot built around **pixel-art avatars and profiles**. New members go through a guided onboarding (avatar, bio, birthday, pronouns, region, languages), then earn XP and coins, play chat games, build friendships and climb leaderboards.
+A community Discord bot built around **pixel-art avatars and profiles** — and a bot that feels like a **person, not a command menu**. There is no AI backend; everything is scripted. New members go through a guided onboarding (avatar, bio, birthday, pronouns, region, languages), then earn XP and coins, play chat games, build friendships and climb leaderboards.
 
+- ⌨️ **Human-like replies** — she reads before answering and types for as long as her reply would really take.
+- 🌗 **Mood per server** — drifts on its own (lower at 4 am, higher in the evening) and shifts with how people treat her.
 - 🧑‍🎨 **Avatar builder** — layered skin tones, hairstyles and clothing, with a wardrobe to change outfits.
 - 📝 **Bios with moderation** — submitted bios are reviewed by staff, with blacklist and length checks.
 - 🪙 **Wallet, XP & bonds** — three leaderboards: XP, coins and friendships.
-- 🎮 **Chat games**, greetings, favourites and best-friend cards.
+- 🎮 **Chat games**, greetings, favourites, best friends and interactions (wave, poke, pat).
+- ✅ **Verification flow** with animated explainers.
 - 🛡️ **Staff tools** — timeouts, bans, quarantine and appeals.
+
+### Avatars & profiles
 
 | Bios | Wardrobe |
 | :---: | :---: |
@@ -301,12 +342,46 @@ A community Discord bot built around **pixel-art avatars and profiles**. New mem
 | Welcome card | Bio card |
 | :---: | :---: |
 | ![Welcome](images/bioverse/welcome-card.png) | ![Bio card](images/bioverse/bio-card.png) |
-| **Wallet** | **Best friend card** |
-| ![Wallet](images/bioverse/wallet-card.png) | ![Best friend](images/bioverse/bestfriend-card.png) |
-| **XP leaderboard** | **Quiz** |
-| ![Leaderboard](images/bioverse/leaderboard-xp.png) | ![Quiz](images/bioverse/game-quiz.png) |
-| **Avatar onboarding** | **Greeting in chat** |
-| ![Onboarding](images/bioverse/instruction-avatar.png) | ![Greeting](images/bioverse/greet-in-chat.png) |
+| **Profile card** | **Level card** |
+| ![Profile](images/bioverse/01-profile-card.png) | ![Level](images/bioverse/02-level-card.png) |
+| **Wallet** | **Bio approved** |
+| ![Wallet](images/bioverse/wallet-card.png) | ![Bio approved](images/bioverse/11-bio-approved.png) |
+| **Avatar onboarding** | **Persona creator** |
+| ![Onboarding](images/bioverse/instruction-avatar.png) | ![Persona](images/bioverse/persona-creator.png) |
+
+### Chat games & leaderboards
+
+| Word scramble | Quiz | Winner |
+| :---: | :---: | :---: |
+| ![Scramble](images/bioverse/03-game-scramble.png) | ![Quiz](images/bioverse/game-quiz.png) | ![Win](images/bioverse/05-game-win.png) |
+
+| XP leaderboard | Leaderboard |
+| :---: | :---: |
+| ![XP](images/bioverse/leaderboard-xp.png) | ![Leaderboard](images/bioverse/12-leaderboard.png) |
+
+### Friendships, interactions & mood
+
+| Best friend request | Accepted |
+| :---: | :---: |
+| ![Request](images/bioverse/06-bestfriend-request.png) | ![Accepted](images/bioverse/07-bestfriend-accepted.png) |
+
+![Best friend banner](images/bioverse/08-bestfriend-banner.png)
+
+| Favourite | Wave | Poke | Pat |
+| :---: | :---: | :---: | :---: |
+| ![Favorite](images/bioverse/09-favorite.png) | ![Wave](images/bioverse/10-wave.png) | ![Poke](images/bioverse/10-poke.png) | ![Pat](images/bioverse/10-pat.png) |
+
+| Best friend card | Greeting in chat | Mood |
+| :---: | :---: | :---: |
+| ![Best friend](images/bioverse/bestfriend-card.png) | ![Greeting](images/bioverse/greet-in-chat.png) | ![Mood](images/bioverse/mood.png) |
+
+### Verification flow
+
+| Get verified | Rules |
+| :---: | :---: |
+| ![Get verified](images/bioverse/GetVerified.gif) | ![Rules](images/bioverse/rules.gif) |
+| **Explainer** | **Flagged zone** |
+| ![Explainer](images/bioverse/VerificationExplainer.gif) | ![Flagged](images/bioverse/flagged_zone.gif) |
 
 <details>
 <summary><b>How avatars are layered</b></summary>
@@ -323,12 +398,15 @@ A community Discord bot built around **pixel-art avatars and profiles**. New mem
 
 **See who invites who.** An invite-tracking bot with a web dashboard and documentation site.
 
-- 🌳 **Invite tree** — follow who invited each member, multiple levels deep.
-- 📊 **Stats & leaderboards** — joins, leaves, fakes and rejoins per inviter and per code.
-- 🎁 **Rewards** — automatic roles at invite milestones (temporary rewards in Premium).
-- 📣 **Campaigns & source links** — measure which channels bring in members.
-- 🛡️ **Raid detection** — alerts on suspicious join spikes (kick & lockdown in Premium).
-- 🖥️ **Web dashboard** — log in with Discord and manage everything per server.
+**How it works:** Invitree caches every invite and its use count. When someone joins it compares the counts to find which invite was used and who owns it. Joins are counted as regular, left, fake or bonus, and suspicious joins (new accounts, no avatar, rejoins) are flagged. Raid protection watches for join bursts and can alert, kick or temporarily raise the verification level. Reward roles update whenever someone's invite count changes, and join messages, campaigns and source links are managed from the web dashboard.
+
+| Invites, inviter and invited | Leaderboard |
+| :---: | :---: |
+| ![](images/invitree/ex-invites.png) | ![](images/invitree/ex-leaderboard.png) |
+| **Invite tree** | **`/setup` with channel picker** |
+| ![](images/invitree/ex-tree.png) | ![](images/invitree/ex-setup.png) |
+| **Join log, suspicious join & raid alert** | **Bonus invites & campaigns** |
+| ![](images/invitree/ex-alerts.png) | ![](images/invitree/ex-bonus-campaigns.png) |
 
 | | Free | Premium |
 | --- | :---: | :---: |
@@ -345,22 +423,16 @@ A community Discord bot built around **pixel-art avatars and profiles**. New mem
 
 ## ☁️ Bloom Cloud bot
 
-Bloom Cloud (a licensing platform for developers) inside Discord. The bot has no database and no rules of its own: every command goes through the same services as the dashboard, with the same limits and audit log. Permissions come from the Bloom account of whoever typed the command — not from the bot.
+Bloom Cloud (a licensing platform for developers) inside Discord.
+
+**How it works:** the bot links a Discord server to a Bloom Cloud workspace. It has no database and no rules of its own — every command names the Discord user who ran it, and Bloom checks *their* account and role, so the bot follows exactly the same limits and audit log as the dashboard. Replies containing licence keys are ephemeral, so keys never end up in a channel. `/licence create` without options opens a step-by-step builder where each button fills in one field, and **Create** only appears once a product is chosen.
+
+| `/bloom` status | Licence builder |
+| :---: | :---: |
+| ![](images/bloom-cloud-bot/ex-bloom-status.png) | ![](images/bloom-cloud-bot/ex-licence-builder.png) |
+| **One-line licence create** | **Licence lookup** |
+| ![](images/bloom-cloud-bot/ex-licence-create.png) | ![](images/bloom-cloud-bot/ex-licence-lookup.png) |
+| **Permission denied & errors** | **Products** |
+| ![](images/bloom-cloud-bot/ex-errors.png) | ![](images/bloom-cloud-bot/ex-products.png) |
 
 **Built with:** TypeScript · discord.js · Docker
-
----
-
-## 💬 d2s-bot
-
-Connects a website's live-chat widget to Discord. Each conversation becomes its own thread in a forum channel, with visitor details and **Take over / Close** buttons. Support simply types in the thread and it arrives live for the visitor — and the other way round.
-
-**Built with:** Node.js · discord.js · WebSockets · Docker
-
----
-
-## 🧩 NexusBot
-
-An all-in-one Discord bot with **40+ features**: games (counting, word snake, Akinator, coin drops), moderation, status roles, staff management, channel management and more.
-
-**Built with:** Python · discord.py
