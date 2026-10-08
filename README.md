@@ -121,6 +121,164 @@ A complete Dutch roleplay server built as one large Paper plugin, with its own r
 
 </details>
 
+### Resource pack
+
+Everything in CrashVille is drawn in a custom resource pack: GUIs, phone screens, computer operating systems, documents, uniforms, vehicles and furniture. All in-game text is in **Dutch**, because CrashVille is a Dutch server. Click a category to open it.
+
+<details>
+<summary><b>📱 Phone & laptop</b> (58)</summary>
+
+| | |
+| :---: | :---: |
+| **Masten**<br>![](images/crashville/pack/masten.png) | **Pgp telefoon**<br>![](images/crashville/pack/pgp_telefoon.png) |
+| **Telefoon · introductie**<br>![](images/crashville/pack/telefoon__01_introductie.png) | **Telefoon · toetsenbord**<br>![](images/crashville/pack/telefoon__02_toetsenbord.png) |
+| **Telefoon · toetsenbord cijfers**<br>![](images/crashville/pack/telefoon__02b_toetsenbord_cijfers.png) | **Telefoon · abonnement kiezen**<br>![](images/crashville/pack/telefoon__03_abonnement_kiezen.png) |
+| **Telefoon · vergrendelscherm**<br>![](images/crashville/pack/telefoon__04_vergrendelscherm.png) | **Telefoon · beginscherm**<br>![](images/crashville/pack/telefoon__05_beginscherm.png) |
+| **Telefoon · berichten**<br>![](images/crashville/pack/telefoon__06_berichten.png) | **Telefoon · gesprek**<br>![](images/crashville/pack/telefoon__07_gesprek.png) |
+| **Telefoon · contacten**<br>![](images/crashville/pack/telefoon__08_contacten.png) | **Telefoon · contact**<br>![](images/crashville/pack/telefoon__09_contact.png) |
+| **Telefoon · verzoeken**<br>![](images/crashville/pack/telefoon__10_verzoeken.png) | **Telefoon · app store**<br>![](images/crashville/pack/telefoon__11_app_store.png) |
+| **Telefoon · instellingen**<br>![](images/crashville/pack/telefoon__12_instellingen.png) | **Telefoon · geldmaat**<br>![](images/crashville/pack/telefoon__13_geldmaat.png) |
+| **Telefoon · geldmaat pincode**<br>![](images/crashville/pack/telefoon__13a_geldmaat_pincode.png) | **Telefoon · afschrift**<br>![](images/crashville/pack/telefoon__14_afschrift.png) |
+| **Telefoon · pas scannen 1**<br>![](images/crashville/pack/telefoon__15_pas_scannen_1.png) | **Telefoon · pas scannen 2**<br>![](images/crashville/pack/telefoon__15_pas_scannen_2.png) |
+| **Telefoon · pas scannen 3**<br>![](images/crashville/pack/telefoon__15_pas_scannen_3.png) | **Telefoon · pas pincode**<br>![](images/crashville/pack/telefoon__15b_pas_pincode.png) |
+| **Telefoon · navigatie**<br>![](images/crashville/pack/telefoon__16_navigatie.png) | **Telefoon · abonnement**<br>![](images/crashville/pack/telefoon__17_abonnement.png) |
+| **Telefoon · abonnement aanpassen**<br>![](images/crashville/pack/telefoon__17b_abonnement_aanpassen.png) | **Telefoon · abonnement overstappen**<br>![](images/crashville/pack/telefoon__17c_abonnement_overstappen.png) |
+| **Telefoon · abonnement opzeggen**<br>![](images/crashville/pack/telefoon__17d_abonnement_opzeggen.png) | **Telefoon · noodnummer**<br>![](images/crashville/pack/telefoon__18_noodnummer.png) |
+| **Telefoon · noodnummer melding**<br>![](images/crashville/pack/telefoon__18b_noodnummer_melding.png) | **Telefoon · beginscherm bos**<br>![](images/crashville/pack/telefoon__19_beginscherm_bos.png) |
+| **Telefoon · beginscherm nacht**<br>![](images/crashville/pack/telefoon__19_beginscherm_nacht.png) | **Telefoon · beginscherm roze**<br>![](images/crashville/pack/telefoon__19_beginscherm_roze.png) |
+| **Telefoon · beginscherm zonsondergang**<br>![](images/crashville/pack/telefoon__19_beginscherm_zonsondergang.png) | **Telefoon · vergrendelscherm blauw**<br>![](images/crashville/pack/telefoon__20_vergrendelscherm_blauw.png) |
+| **Telefoon · vergrendelscherm bos**<br>![](images/crashville/pack/telefoon__20_vergrendelscherm_bos.png) | **Telefoon · vergrendelscherm nacht**<br>![](images/crashville/pack/telefoon__20_vergrendelscherm_nacht.png) |
+| **Telefoon · vergrendelscherm roze**<br>![](images/crashville/pack/telefoon__20_vergrendelscherm_roze.png) | **Telefoon · overzicht**<br>![](images/crashville/pack/telefoon__overzicht.png) |
+| **Telefoon abonnement**<br>![](images/crashville/pack/telefoon_abonnement.png) | **Telefoon andermans telefoon**<br>![](images/crashville/pack/telefoon_andermans_telefoon.png) |
+| **Telefoon app store**<br>![](images/crashville/pack/telefoon_app_store.png) | **Telefoon begin pagina 1**<br>![](images/crashville/pack/telefoon_begin_pagina_1.png) |
+| **Telefoon begin pagina 2**<br>![](images/crashville/pack/telefoon_begin_pagina_2.png) | **Telefoon camera**<br>![](images/crashville/pack/telefoon_camera.png) |
+| **Telefoon locatie delen**<br>![](images/crashville/pack/telefoon_locatie_delen.png) | **Telefoon macbook berichten**<br>![](images/crashville/pack/telefoon_macbook_berichten.png) |
+| **Telefoon macbook bureaublad**<br>![](images/crashville/pack/telefoon_macbook_bureaublad.png) | **Telefoon macbook zoek mijn**<br>![](images/crashville/pack/telefoon_macbook_zoek_mijn.png) |
+| **Telefoon navigatie**<br>![](images/crashville/pack/telefoon_navigatie.png) | **Telefoon scherm**<br>![](images/crashville/pack/telefoon_scherm.png) |
+| **Telefoon vergrendel blackberry**<br>![](images/crashville/pack/telefoon_vergrendel_blackberry.png) | **Telefoon vergrendel huawei**<br>![](images/crashville/pack/telefoon_vergrendel_huawei.png) |
+| **Telefoon vergrendel iphone**<br>![](images/crashville/pack/telefoon_vergrendel_iphone.png) | **Telefoon vergrendel psp**<br>![](images/crashville/pack/telefoon_vergrendel_psp.png) |
+| **Telefoon vergrendel samsung**<br>![](images/crashville/pack/telefoon_vergrendel_samsung.png) | **Telefoon verzekering pechhulp**<br>![](images/crashville/pack/telefoon_verzekering_pechhulp.png) |
+| **Telefoon zoek mijn**<br>![](images/crashville/pack/telefoon_zoek_mijn.png) | **Zoekmijn**<br>![](images/crashville/pack/zoekmijn.png) |
+
+</details>
+
+<details>
+<summary><b>🚓 Police & emergency services</b> (27)</summary>
+
+| | |
+| :---: | :---: |
+| **Ambulance**<br>![](images/crashville/pack/ambulance.png) | **Ambulance medisch**<br>![](images/crashville/pack/ambulance_medisch.png) |
+| **Boa**<br>![](images/crashville/pack/boa.png) | **Brandweer**<br>![](images/crashville/pack/brandweer.png) |
+| **Brandweer gereedschap**<br>![](images/crashville/pack/brandweer_gereedschap.png) | **Brandweer kast**<br>![](images/crashville/pack/brandweer_kast.png) |
+| **Camera overlay**<br>![](images/crashville/pack/camera_overlay.png) | **Cjib**<br>![](images/crashville/pack/cjib.png) |
+| **Flitsalarm**<br>![](images/crashville/pack/flitsalarm.png) | **Hulpdiensten ambulance**<br>![](images/crashville/pack/hulpdiensten_ambulance.png) |
+| **Hulpdiensten brandweer**<br>![](images/crashville/pack/hulpdiensten_brandweer.png) | **Hulpdiensten ladderwagen**<br>![](images/crashville/pack/hulpdiensten_ladderwagen.png) |
+| **Hulpdiensten politie**<br>![](images/crashville/pack/hulpdiensten_politie.png) | **Politie npc**<br>![](images/crashville/pack/politie_npc.png) |
+| **Politiecomputer**<br>![](images/crashville/pack/politiecomputer.png) | **Politienet · politiebureau**<br>![](images/crashville/pack/politienet__0_politiebureau.png) |
+| **Politienet · bureaublad**<br>![](images/crashville/pack/politienet__1_bureaublad.png) | **Politienet · personen**<br>![](images/crashville/pack/politienet__2_personen.png) |
+| **Politienet · dossier**<br>![](images/crashville/pack/politienet__3_dossier.png) | **Politienet · gezocht**<br>![](images/crashville/pack/politienet__4_gezocht.png) |
+| **Politienet · 112 meldingen**<br>![](images/crashville/pack/politienet__5_112_meldingen.png) | **Politienet · agenten**<br>![](images/crashville/pack/politienet__6_agenten.png) |
+| **Politienet · cellen**<br>![](images/crashville/pack/politienet__7_cellen.png) | **Politienet · overzicht**<br>![](images/crashville/pack/politienet__overzicht.png) |
+| **Politienet os**<br>![](images/crashville/pack/politienet_os.png) | **Portofoon**<br>![](images/crashville/pack/portofoon.png) |
+| **Uniformen**<br>![](images/crashville/pack/uniformen.png) | |
+
+</details>
+
+<details>
+<summary><b>🏛️ Municipality & businesses</b> (17)</summary>
+
+| | |
+| :---: | :---: |
+| **Basisregistratie**<br>![](images/crashville/pack/basisregistratie.png) | **Bedrijven · kvk balie**<br>![](images/crashville/pack/bedrijven__1_kvk_balie.png) |
+| **Bedrijven · bedrijf**<br>![](images/crashville/pack/bedrijven__2_bedrijf.png) | **Bedrijven · groothandel**<br>![](images/crashville/pack/bedrijven__3_groothandel.png) |
+| **Bedrijven · overzicht**<br>![](images/crashville/pack/bedrijven__overzicht.png) | **Computer os**<br>![](images/crashville/pack/computer_os.png) |
+| **Computer setup**<br>![](images/crashville/pack/computer_setup.png) | **Gemeente · balie**<br>![](images/crashville/pack/gemeente__1_balie.png) |
+| **Gemeente · lijst**<br>![](images/crashville/pack/gemeente__2_lijst.png) | **Gemeente · document**<br>![](images/crashville/pack/gemeente__3_document.png) |
+| **Gemeente · overzicht**<br>![](images/crashville/pack/gemeente__overzicht.png) | **Kentekencard**<br>![](images/crashville/pack/kentekencard.png) |
+| **Plot info**<br>![](images/crashville/pack/plot_info.png) | **Rijbewijs**<br>![](images/crashville/pack/rijbewijs.png) |
+| **School**<br>![](images/crashville/pack/school.png) | **Veiling**<br>![](images/crashville/pack/veiling.png) |
+| **Verzekeringen**<br>![](images/crashville/pack/verzekeringen.png) | |
+
+</details>
+
+<details>
+<summary><b>💳 Banking & casino</b> (15)</summary>
+
+| | |
+| :---: | :---: |
+| **Casino**<br>![](images/crashville/pack/casino.png) | **Casino 3d**<br>![](images/crashville/pack/casino_3d.png) |
+| **Casino controls**<br>![](images/crashville/pack/casino_controls.png) | **Casino entree**<br>![](images/crashville/pack/casino_entree.png) |
+| **Casino entree module**<br>![](images/crashville/pack/casino_entree_module.png) | **Casino pas**<br>![](images/crashville/pack/casino_pas.png) |
+| **Casino regelboek**<br>![](images/crashville/pack/casino_regelboek.png) | **Crazytime**<br>![](images/crashville/pack/crazytime.png) |
+| **Crazytime bonussen**<br>![](images/crashville/pack/crazytime_bonussen.png) | **Klikklak**<br>![](images/crashville/pack/klikklak.png) |
+| **Pinautomaat ontwerpen**<br>![](images/crashville/pack/pinautomaat_ontwerpen.png) | **Pinautomaat plofkraak**<br>![](images/crashville/pack/pinautomaat_plofkraak.png) |
+| **Pinautomaten**<br>![](images/crashville/pack/pinautomaten.png) | **Pinconsole**<br>![](images/crashville/pack/pinconsole.png) |
+| **Plofkraak spel**<br>![](images/crashville/pack/plofkraak_spel.png) | |
+
+</details>
+
+<details>
+<summary><b>🚗 Vehicles</b> (18)</summary>
+
+| | |
+| :---: | :---: |
+| **Anwb**<br>![](images/crashville/pack/anwb.png) | **Autohandel**<br>![](images/crashville/pack/autohandel.png) |
+| **Bus binnen**<br>![](images/crashville/pack/bus_binnen.png) | **Bus deuren**<br>![](images/crashville/pack/bus_deuren.png) |
+| **Bus wielen**<br>![](images/crashville/pack/bus_wielen.png) | **Garage**<br>![](images/crashville/pack/garage.png) |
+| **Portieren mt range**<br>![](images/crashville/pack/portieren_mt_range.png) | **Showroom**<br>![](images/crashville/pack/showroom.png) |
+| **Tankstation**<br>![](images/crashville/pack/tankstation.png) | **Tuning**<br>![](images/crashville/pack/tuning.png) |
+| **Voertuigen**<br>![](images/crashville/pack/voertuigen.png) | **Voertuigen minetopia**<br>![](images/crashville/pack/voertuigen_minetopia.png) |
+| **Wasstraat**<br>![](images/crashville/pack/wasstraat.png) | **Wasstraat doeken**<br>![](images/crashville/pack/wasstraat_doeken.png) |
+| **Wasstraat terrein**<br>![](images/crashville/pack/wasstraat_terrein.png) | **Wielen mt**<br>![](images/crashville/pack/wielen_mt.png) |
+| **Zitposities**<br>![](images/crashville/pack/zitposities.png) | **Zitten 1**<br>![](images/crashville/pack/zitten_1.png) |
+
+</details>
+
+<details>
+<summary><b>🏠 Home, shops & daily life</b> (19)</summary>
+
+| | |
+| :---: | :---: |
+| **Activiteiten**<br>![](images/crashville/pack/activiteiten.png) | **Afval**<br>![](images/crashville/pack/afval.png) |
+| **Apotheek**<br>![](images/crashville/pack/apotheek.png) | **Automaten**<br>![](images/crashville/pack/automaten.png) |
+| **Houdbaarheid**<br>![](images/crashville/pack/houdbaarheid.png) | **Huisdieren**<br>![](images/crashville/pack/huisdieren.png) |
+| **Koelkast**<br>![](images/crashville/pack/koelkast.png) | **Koelkast · koelkast**<br>![](images/crashville/pack/koelkast__koelkast.png) |
+| **Koelkast · koelvries**<br>![](images/crashville/pack/koelkast__koelvries.png) | **Koelkast · vriezer**<br>![](images/crashville/pack/koelkast__vriezer.png) |
+| **Meubels**<br>![](images/crashville/pack/meubels.png) | **Range vuil**<br>![](images/crashville/pack/range_vuil.png) |
+| **Snappie**<br>![](images/crashville/pack/snappie.png) | **Sportschool**<br>![](images/crashville/pack/sportschool.png) |
+| **Statiegeld**<br>![](images/crashville/pack/statiegeld.png) | **Wasmachine**<br>![](images/crashville/pack/wasmachine.png) |
+| **Wasmachine · droger**<br>![](images/crashville/pack/wasmachine__droger.png) | **Wasmachine · wasmachine**<br>![](images/crashville/pack/wasmachine__wasmachine.png) |
+| **Winkel modellen**<br>![](images/crashville/pack/winkel_modellen.png) | |
+
+</details>
+
+<details>
+<summary><b>🕶️ Underworld</b> (4)</summary>
+
+| | |
+| :---: | :---: |
+| **Darkweb**<br>![](images/crashville/pack/darkweb.png) | **Dealer aanvragen**<br>![](images/crashville/pack/dealer_aanvragen.png) |
+| **Dronken**<br>![](images/crashville/pack/dronken.png) | **Drugs**<br>![](images/crashville/pack/drugs.png) |
+
+</details>
+
+<details>
+<summary><b>🧩 Everything else</b> (17)</summary>
+
+| | |
+| :---: | :---: |
+| **Admin**<br>![](images/crashville/pack/admin.png) | **Alle menus**<br>![](images/crashville/pack/alle_menus.png) |
+| **Alle menus 1**<br>![](images/crashville/pack/alle_menus_1.png) | **Alle menus 2**<br>![](images/crashville/pack/alle_menus_2.png) |
+| **Alle menus 3**<br>![](images/crashville/pack/alle_menus_3.png) | **Alle modellen**<br>![](images/crashville/pack/alle_modellen.png) |
+| **Alle modellen 1**<br>![](images/crashville/pack/alle_modellen_1.png) | **Alle modellen 2**<br>![](images/crashville/pack/alle_modellen_2.png) |
+| **Alle modellen 3**<br>![](images/crashville/pack/alle_modellen_3.png) | **Alle modellen 4**<br>![](images/crashville/pack/alle_modellen_4.png) |
+| **Alle modellen 5**<br>![](images/crashville/pack/alle_modellen_5.png) | **Alle modellen 6**<br>![](images/crashville/pack/alle_modellen_6.png) |
+| **Alle modellen 7**<br>![](images/crashville/pack/alle_modellen_7.png) | **Alle modellen 8**<br>![](images/crashville/pack/alle_modellen_8.png) |
+| **Alle modellen 9**<br>![](images/crashville/pack/alle_modellen_9.png) | **Dashboard**<br>![](images/crashville/pack/dashboard.png) |
+| **Tablist**<br>![](images/crashville/pack/tablist.png) | |
+
+</details>
+
 **Built with:** Java (Paper) · Gradle · custom resource pack with custom models and GUI textures
 
 ---
@@ -189,6 +347,18 @@ Translates server chat for **every player individually** — works out of the bo
 | :---: | :---: |
 | ![](images/linguify/ex-settings.png) | ![](images/linguify/ex-stats.png) |
 
+#### With a custom resource pack
+
+Every one of the 30 languages gets a pixel-art flag — in the language picker, in front of player names in chat, and on a styled hover card that shows the translation next to the original.
+
+| Flag language picker | Translated chat with hover card |
+| :---: | :---: |
+| ![](images/linguify/pack-language-picker.png) | ![](images/linguify/pack-chat-hover.png) |
+
+| Preview sheet: picking a language, reading translated chat, personal settings |
+| :---: |
+| ![](images/linguify/pack-preview.png) |
+
 **Built with:** Java (Spigot/Paper) · packet interception
 
 ---
@@ -225,6 +395,40 @@ Harvest crops with a hoe; they replant automatically. In the Farmer NPC's mill y
 | :---: | :---: |
 | ![](images/mt-grinding/ex-farming-farmer.png) | ![](images/mt-grinding/ex-farming-mill.png) |
 
+### Resource pack edition
+
+On CrashVille the grinding jobs come with a full custom resource pack: illustrated NPC menus for every job, 3D machines and preview sheets that explain each step. All in-game text is in **Dutch** (CrashVille is a Dutch server).
+
+![Job NPC menus](images/mt-grinding/pack/banen_gui_groot.png)
+
+| Fishing — how it works | Sawmill — how it works |
+| :---: | :---: |
+| ![](images/mt-grinding/pack/preview_vissen.png) | ![](images/mt-grinding/pack/preview_houtzagerij.png) |
+| **Ore processing — how it works** | **Drilling rig — how it works** |
+| ![](images/mt-grinding/pack/preview_ertsverwerking.png) | ![](images/mt-grinding/pack/preview_boortoren.png) |
+
+<details>
+<summary><b>All job machines, NPCs and items</b></summary>
+
+| | |
+| :---: | :---: |
+| **Banen figuren**<br>![](images/mt-grinding/pack/banen_figuren.png) | **Banen npc balies**<br>![](images/mt-grinding/pack/banen_npc_balies.png) |
+| **Boortoren gui**<br>![](images/mt-grinding/pack/boortoren_gui.png) | **Gebouw houtzagerij**<br>![](images/mt-grinding/pack/gebouw_houtzagerij.png) |
+| **Gebouw mijn verwerking**<br>![](images/mt-grinding/pack/gebouw_mijn_verwerking.png) | **Inventories banen**<br>![](images/mt-grinding/pack/inventories_banen.png) |
+| **Jobs hout droogoven**<br>![](images/mt-grinding/pack/jobs_hout_droogoven.png) | **Jobs hout invoer**<br>![](images/mt-grinding/pack/jobs_hout_invoer.png) |
+| **Jobs hout pers**<br>![](images/mt-grinding/pack/jobs_hout_pers.png) | **Jobs hout producten**<br>![](images/mt-grinding/pack/jobs_hout_producten.png) |
+| **Jobs hout schaaf**<br>![](images/mt-grinding/pack/jobs_hout_schaaf.png) | **Jobs hout werf**<br>![](images/mt-grinding/pack/jobs_hout_werf.png) |
+| **Jobs hout zaag**<br>![](images/mt-grinding/pack/jobs_hout_zaag.png) | **Jobs mijn boor**<br>![](images/mt-grinding/pack/jobs_mijn_boor.png) |
+| **Jobs mijn breker**<br>![](images/mt-grinding/pack/jobs_mijn_breker.png) | **Jobs mijn producten**<br>![](images/mt-grinding/pack/jobs_mijn_producten.png) |
+| **Jobs mijn smelter**<br>![](images/mt-grinding/pack/jobs_mijn_smelter.png) | **Jobs mijn sorteerband**<br>![](images/mt-grinding/pack/jobs_mijn_sorteerband.png) |
+| **Jobs postbus**<br>![](images/mt-grinding/pack/jobs_postbus.png) | **Jobs vis afslag**<br>![](images/mt-grinding/pack/jobs_vis_afslag.png) |
+| **Jobs vis afslagklok**<br>![](images/mt-grinding/pack/jobs_vis_afslagklok.png) | **Jobs vis spanning**<br>![](images/mt-grinding/pack/jobs_vis_spanning.png) |
+| **Jobs vuilniswagen**<br>![](images/mt-grinding/pack/jobs_vuilniswagen.png) | **Mijn verwerking gui**<br>![](images/mt-grinding/pack/mijn_verwerking_gui.png) |
+| **Mijn verwerking hal**<br>![](images/mt-grinding/pack/mijn_verwerking_hal.png) | **Mijn verwerking stations**<br>![](images/mt-grinding/pack/mijn_verwerking_stations.png) |
+| **Pakket 3d**<br>![](images/mt-grinding/pack/pakket_3d.png) | **Water visboot**<br>![](images/mt-grinding/pack/water_visboot.png) |
+
+</details>
+
 ---
 
 ## 🧾 Billify
@@ -240,6 +444,18 @@ A FiveM-style invoice system for roleplay and economy servers (**1.14 – 1.20**
 | ![](images/billify/ex-pay-invoice.png) | ![](images/billify/ex-paid-invoices.png) |
 | **Debt collection** | **Commands** |
 | ![](images/billify/ex-debt-collection.png) | ![](images/billify/ex-commands.png) |
+#### With a custom resource pack
+
+Invoices become torn paper receipts with a coloured status strip, your balance gets its own coin panel, and paid or collected bills get a rubber stamp. Overdue invoices move to a debt-collection screen with the fee and a countdown to automatic collection.
+
+| Invoice menu with hover details | Receipts: pay, BETAALD stamp, auto-collected |
+| :---: | :---: |
+| ![](images/billify/pack-invoice-menu.png) | ![](images/billify/pack-invoice-receipts.png) |
+
+| Preview sheet: sending, paying and debt collection step by step |
+| :---: |
+| ![](images/billify/pack-preview.png) |
+
 
 ---
 
@@ -264,6 +480,16 @@ A shop system for **1.21.5** with a realistic economy.
 | Shop management (`/shopadmin`) |
 | :---: |
 | ![](images/dynamic-shop-system/ex-shop-management.png) |
+#### With a custom resource pack
+
+The shop menus turn into a market stall: a striped awning, illustrated category tiles, a live pixel-art price chart with trend arrows, one-click buy/sell buttons and a management panel for player shops.
+
+| Overview | Storefront |
+| :---: | :---: |
+| ![](images/dynamic-shop-system/pack-overview.png) | ![](images/dynamic-shop-system/pack-storefront.png) |
+| **Item page with price chart** | **Player shop management** |
+| ![](images/dynamic-shop-system/pack-item.png) | ![](images/dynamic-shop-system/pack-manage.png) |
+
 
 ---
 
@@ -279,6 +505,14 @@ Made for police, ambulance and other services on a roleplay server. Admins creat
 | Admin setup | Permission & state checks |
 | :---: | :---: |
 | ![](images/mtw-dienst/ex-admin-setup.png) | ![](images/mtw-dienst/ex-permissions.png) |
+#### With a custom resource pack
+
+A duty locker where you pick your service with big icon buttons and preview the kit, with an on-duty badge and toasts when your inventory is stored and restored.
+
+| Duty flow | Kits per service |
+| :---: | :---: |
+| ![](images/mtw-dienst/pack-dienst-flow.png) | ![](images/mtw-dienst/pack-dienst-kits.png) |
+
 
 ### 🛡️ MTW-AntiDupe — dupe detection (1.12.2)
 Watches for known dupe methods: rapid or multiple chest opening, breaking an open chest, hoppers, deaths near containers, oversized creative stacks and blocked commands like `/more`. Every detection alerts staff in-game, is written to a log file and can be posted to Discord. Repeat offenders get warnings (1/3 → 3/3) and are then kicked or banned.
@@ -290,6 +524,12 @@ Watches for known dupe methods: rapid or multiple chest opening, breaking an ope
 | `/antidupe status` | Log file | Discord webhook |
 | :---: | :---: | :---: |
 | ![](images/mtw-antidupe/ex-status.png) | ![](images/mtw-antidupe/ex-log-file.png) | ![](images/mtw-antidupe/ex-discord.png) |
+#### With a custom resource pack
+
+A security dashboard for staff with totals, the status of all nine detectors and a live alert feed, while the player sees a warning title and a 3-strike meter.
+
+![](images/mtw-antidupe/pack-antidupe.png)
+
 
 ### 💰 MinetopiaSDB BalTop
 `/sdbbaltop [page] [personal|savings|business|government|all]` adds up every player's MinetopiaSDB balances, shows server-wide totals per account type and a ranked, paginated list of the richest players. Fully asynchronous, works on 1.12 – 1.21.
@@ -297,6 +537,12 @@ Watches for known dupe methods: rapid or multiple chest opening, breaking an ope
 | Page 1 with server totals | Pagination |
 | :---: | :---: |
 | ![](images/baltop/ex-baltop-page1.png) | ![](images/baltop/ex-baltop-page2.png) |
+#### With a custom resource pack
+
+A bank-styled leaderboard with the top 3 on a podium, tabs per account type, a page counter, hover breakdowns and a totals panel.
+
+![](images/baltop/pack-baltop.png)
+
 
 ### 🏗️ MinetopiaSDB BuildMode
 `/buildmode` puts staff in creative and stores their survival inventory, which comes back when they switch off — also automatically on restart or reload. While active they can build, but dropping or picking up items, opening containers and using entities are blocked, so creative items never leak into the economy.
@@ -304,6 +550,12 @@ Watches for known dupe methods: rapid or multiple chest opening, breaking an ope
 | Enable / disable flow | What is blocked |
 | :---: | :---: |
 | ![](images/buildmode/ex-buildmode-toggle.png) | ![](images/buildmode/ex-buildmode-blocked.png) |
+#### With a custom resource pack
+
+A toggle panel with session status, plus a boss bar, blocked-actions panel and toasts that make it obvious you're in a safe creative session.
+
+![](images/buildmode/pack-buildmode.png)
+
 
 ### 📺 VloedjeSMP-Addon
 `/live` gives a streamer a `[LIVE]` tag in the tab list, announces the stream server-wide and makes them glow for 30 seconds. `/portal` converts your position into the matching Nether or Overworld coordinates (÷8 / ×8) so linked portals line up.
@@ -311,6 +563,14 @@ Watches for known dupe methods: rapid or multiple chest opening, breaking an ope
 | [LIVE] tab tag | Stream broadcast | Portal coordinates |
 | :---: | :---: | :---: |
 | ![](images/vloedjesmp/ex-live-tab.png) | ![](images/vloedjesmp/ex-live-broadcast.png) | ![](images/vloedjesmp/ex-portal.png) |
+#### With a custom resource pack
+
+A red LIVE badge in the tab list, a stream announcement toast, and a portal calculator GUI that shows the linked Overworld and Nether coordinates side by side.
+
+| Streamer tools | Portal calculator |
+| :---: | :---: |
+| ![](images/vloedjesmp/pack-live.png) | ![](images/vloedjesmp/pack-portal.png) |
+
 
 ---
 
@@ -396,6 +656,8 @@ A community Discord bot built around **pixel-art avatars and profiles** — and 
 
 ## 🌳 Invitree
 
+![Invitree](images/invitree/hero.png)
+
 **See who invites who.** An invite-tracking bot with a web dashboard and documentation site.
 
 **How it works:** Invitree caches every invite and its use count. When someone joins it compares the counts to find which invite was used and who owns it. Joins are counted as regular, left, fake or bonus, and suspicious joins (new accounts, no avatar, rejoins) are flagged. Raid protection watches for join bursts and can alert, kick or temporarily raise the verification level. Reward roles update whenever someone's invite count changes, and join messages, campaigns and source links are managed from the web dashboard.
@@ -417,11 +679,23 @@ A community Discord bot built around **pixel-art avatars and profiles** — and 
 | Raid actions | Warning | Warning, kick, lockdown |
 | Join DM & reports | ❌ | ✅ |
 
+#### Generated cards & dashboard
+
+| Invite tree card | Leaderboard card |
+| :---: | :---: |
+| ![](images/invitree/card-tree.png) | ![](images/invitree/card-leaderboard.png) |
+
+| Web dashboard — server overview |
+| :---: |
+| ![](images/invitree/dashboard.png) |
+
 **Built with:** TypeScript · discord.js v14 · Next.js · Nextra · Turborepo · Docker
 
 ---
 
 ## ☁️ Bloom Cloud bot
+
+![Bloom Cloud bot](images/bloom-cloud-bot/hero.png)
 
 Bloom Cloud (a licensing platform for developers) inside Discord.
 
@@ -434,5 +708,15 @@ Bloom Cloud (a licensing platform for developers) inside Discord.
 | ![](images/bloom-cloud-bot/ex-licence-create.png) | ![](images/bloom-cloud-bot/ex-licence-lookup.png) |
 | **Permission denied & errors** | **Products** |
 | ![](images/bloom-cloud-bot/ex-errors.png) | ![](images/bloom-cloud-bot/ex-products.png) |
+
+#### Generated cards & dashboard
+
+| Licence certificate | Workspace stats |
+| :---: | :---: |
+| ![](images/bloom-cloud-bot/card-licence.png) | ![](images/bloom-cloud-bot/card-stats.png) |
+
+| Web dashboard |
+| :---: |
+| ![](images/bloom-cloud-bot/dashboard.png) |
 
 **Built with:** TypeScript · discord.js · Docker
